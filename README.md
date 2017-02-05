@@ -6,9 +6,6 @@
 <p><a href="http://waterfoxy.com/" target="_blank">waterfoxy.com</a></p>
 <p><a href="http://nikita-karpinskiy.esy.es/WaterFoxy/" target="_blank">water-foxy</a></p>
 
-<br>
-<br>
-
 <em>Особенности проекта:</em>
 <ol>
 	<li>Адаптивность;</li>
