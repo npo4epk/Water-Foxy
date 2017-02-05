@@ -1,0 +1,1334 @@
+@charset "UTF-8";
+html {
+  font-size: 14px;
+  line-height: 22px; }
+
+body {
+  font-family: "ProximaNova-Semibold";
+  min-width: 320px;
+  color: #fafafa; }
+
+.main-wrapper {
+  background: #62a4d9 url(../img/1920/main/background-image.jpg) no-repeat center top;
+  min-height: 5093px; }
+
+.main-header {
+  padding-top: 25px; }
+  .main-header .logo-top {
+    display: inline-block; }
+  .main-header .logo-img {
+    width: 289px;
+    height: 111px;
+    background: transparent url("../img/1920/main/logo-header.png") no-repeat left center; }
+
+.menu-top {
+  padding-top: 40px; }
+  .menu-top__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right; }
+    .menu-top__item li {
+      display: inline-block; }
+    .menu-top__item li:not(:first-child) {
+      padding-left: 35px; }
+    .menu-top__item a {
+      font-family: "ProximaNova-Semibold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      color: #fafafa;
+      display: inline-block;
+      text-decoration: none;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      transition: 1s ease-out 0.5s; }
+      .menu-top__item a:hover {
+        border-color: #fafafa; }
+    .menu-top__item a.active {
+      border-color: #fafafa; }
+
+.main-banner {
+  padding-top: 90px;
+  text-align: center; }
+  .main-banner h2 {
+    font-family: "ProximaNova-Bold";
+    font-size: 36px;
+    font-size: 2.5714rem;
+    font-weight: normal;
+    color: #021d5c;
+    text-transform: uppercase;
+    margin: 0; }
+  .main-banner h3 {
+    font-family: "ProximaNova-Semibold";
+    font-size: 24px;
+    font-size: 1.71428rem;
+    padding-top: 20px;
+    color: #021d5c;
+    text-transform: uppercase;
+    margin: 0; }
+    .main-banner h3 span {
+      color: #e38522; }
+      .main-banner h3 span::after {
+        content: "ТМ";
+        position: relative;
+        top: -15px;
+        font-family: "ProximaNova-Semibold";
+        font-size: 11px;
+        font-size: 0.786rem; }
+  .main-banner .link-wrpapper {
+    padding-top: 30px; }
+    .main-banner .link-wrpapper a {
+      font-family: "ProximaNova-Bold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      display: inline-block;
+      width: 280px;
+      color: #021d5c;
+      border: 2px solid #021d5c;
+      padding: 15px 0;
+      text-decoration: none;
+      margin-left: 35px;
+      transition: 1s ease-out 0.5s; }
+      .main-banner .link-wrpapper a.z-margin {
+        margin-left: 0; }
+      .main-banner .link-wrpapper a:hover {
+        font-family: "ProximaNova-Semibold";
+        color: #fafafa;
+        border-color: #e38522;
+        background-color: #e38522; }
+    .main-banner .link-wrpapper a.active {
+      font-family: "ProximaNova-Semibold";
+      color: #fafafa;
+      border-color: #e38522;
+      background-color: #e38522; }
+
+.main-enthusiasm {
+  padding-top: 320px;
+  text-align: center; }
+  .main-enthusiasm h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-enthusiasm h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-enthusiasm .title-wrapper {
+    padding-top: 50px;
+    text-align: left; }
+    .main-enthusiasm .title-wrapper p {
+      margin: 0 20px 20px 10px; }
+
+.main-causes {
+  text-align: center;
+  padding-top: 200px; }
+  .main-causes h3, .main-causes h5 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0; }
+  .main-causes h5 {
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-causes h5::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-causes .reasons-wrapper {
+    position: relative;
+    height: 600px;
+    margin: 40px 10px 0 10px;
+    background: transparent url("../img/1920/main/mask.png") no-repeat center center; }
+    .main-causes .reasons-wrapper .fa-angle-down {
+      display: none; }
+    .main-causes .reasons-wrapper .reasons-title {
+      position: absolute;
+      display: inline-block;
+      margin: 0;
+      text-align: left;
+      text-transform: uppercase; }
+      .main-causes .reasons-wrapper .reasons-title--position-1 {
+        top: 8%;
+        left: 0; }
+      .main-causes .reasons-wrapper .reasons-title--position-2 {
+        top: 0;
+        left: 45%; }
+      .main-causes .reasons-wrapper .reasons-title--position-3 {
+        top: 15%;
+        right: 5%; }
+      .main-causes .reasons-wrapper .reasons-title--position-4 {
+        top: 45%;
+        left: 0; }
+      .main-causes .reasons-wrapper .reasons-title--position-5 {
+        top: 43%;
+        right: 0; }
+      .main-causes .reasons-wrapper .reasons-title--position-6 {
+        top: 75%;
+        left: 0; }
+      .main-causes .reasons-wrapper .reasons-title--position-7 {
+        bottom: 0;
+        left: 45%; }
+      .main-causes .reasons-wrapper .reasons-title--position-8 {
+        top: 75%;
+        right: 0; }
+  .main-causes .reasons-wrapper--mob {
+    display: none; }
+  .main-causes .link-wrpapper {
+    padding-top: 60px; }
+    .main-causes .link-wrpapper a {
+      font-family: "ProximaNova-Bold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      display: inline-block;
+      width: 280px;
+      color: #fafafa;
+      padding: 15px 0;
+      background-color: #e38522;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: 1s ease-out 0.5s; }
+      .main-causes .link-wrpapper a:hover {
+        color: #021d5c;
+        border-color: #021d5c; }
+
+.main-certificates {
+  padding-top: 190px;
+  text-align: center; }
+  .main-certificates h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-certificates h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-certificates .certificates-logos {
+    padding-top: 40px; }
+    .main-certificates .certificates-logos .logo-icon {
+      height: 194px;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      margin-bottom: 25px; }
+      .main-certificates .certificates-logos .logo-icon--1 {
+        background-image: url("../img/1920/main/certificate-1.png"); }
+      .main-certificates .certificates-logos .logo-icon--2 {
+        background-image: url("../img/1920/main/certificate-2.png"); }
+      .main-certificates .certificates-logos .logo-icon--3 {
+        background-image: url("../img/1920/main/certificate-3.png"); }
+      .main-certificates .certificates-logos .logo-icon--4 {
+        background-image: url("../img/1920/main/certificate-4.png"); }
+
+.main-reviews {
+  padding-top: 180px;
+  text-align: center; }
+  .main-reviews h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-reviews h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-reviews .carousel {
+    padding-top: 45px; }
+    .main-reviews .carousel .item {
+      text-align: left;
+      width: 85%;
+      display: inline-block; }
+      .main-reviews .carousel .item .fa-star {
+        color: #fec965;
+        padding-right: 2px; }
+      .main-reviews .carousel .item p {
+        font-family: "ProximaNova-Regular";
+        font-size: 14px;
+        font-size: 1rem;
+        margin: 0;
+        color: #fafafa;
+        padding-bottom: 5px; }
+      .main-reviews .carousel .item a {
+        font-family: "ProximaNova-Regular";
+        font-size: 14px;
+        font-size: 1rem;
+        margin: 0;
+        color: #fafafa;
+        padding-bottom: 30px;
+        display: block; }
+        .main-reviews .carousel .item a:hover {
+          text-decoration: none; }
+      .main-reviews .carousel .item span {
+        color: #3c7bdb; }
+    .main-reviews .carousel .owl-buttons {
+      position: absolute;
+      top: 60%;
+      width: 100%; }
+      .main-reviews .carousel .owl-buttons .owl-prev {
+        width: 5%;
+        float: left;
+        text-align: left; }
+      .main-reviews .carousel .owl-buttons .owl-next {
+        width: 10%;
+        float: right;
+        text-align: right; }
+      .main-reviews .carousel .owl-buttons .fa {
+        font-size: 26px;
+        transition: 1s ease-out 0.5s; }
+        .main-reviews .carousel .owl-buttons .fa:hover {
+          color: #e38522; }
+
+.main-guarantee {
+  padding-top: 190px;
+  text-align: center; }
+  .main-guarantee h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-guarantee h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-guarantee .text {
+    padding-top: 50px; }
+    .main-guarantee .text .guarantee_icon {
+      height: 208px;
+      width: 203px;
+      display: block;
+      float: left;
+      background: transparent url("../img/1920/main/guarantee.png") no-repeat left center;
+      margin-right: 50px; }
+    .main-guarantee .text p {
+      margin: 0;
+      padding-top: 40px;
+      text-align: left; }
+
+.main-supply {
+  padding-top: 160px;
+  text-align: center; }
+  .main-supply h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .main-supply h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .main-supply .supply-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 30px;
+    margin: 0 10px; }
+    .main-supply .supply-list .supply-img {
+      width: 143px;
+      height: 171px;
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .main-supply .supply-list .supply-img--1 {
+        background-image: url("../img/1920/main/diving-mask.png"); }
+      .main-supply .supply-list .supply-img--2 {
+        background-image: url("../img/1920/main/snorkel-tube.png"); }
+      .main-supply .supply-list .supply-img--3 {
+        background-image: url("../img/1920/main/guide.png"); }
+      .main-supply .supply-list .supply-img--4 {
+        background-image: url("../img/1920/main/bag.png"); }
+      .main-supply .supply-list .supply-img--5 {
+        background-image: url("../img/1920/main/diving-mask.png"); }
+
+.main-order {
+  padding-top: 55px;
+  text-align: center; }
+  .main-order h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0; }
+  .main-order p {
+    font-family: "ProximaNova-Bold";
+    font-size: 30px;
+    font-size: 2.1428rem;
+    color: #e38522;
+    margin: 30px 0 0 0; }
+  .main-order span {
+    position: relative;
+    padding: 0 10px;
+    margin-right: 30px;
+    color: #fafafa; }
+    .main-order span::after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #fafafa; }
+  .main-order .link-wrpapper {
+    padding-top: 40px; }
+    .main-order .link-wrpapper a {
+      font-family: "ProximaNova-Bold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      display: inline-block;
+      width: 280px;
+      color: #fafafa;
+      padding: 15px 0;
+      background-color: #e38522;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: 1s ease-out 0.5s; }
+      .main-order .link-wrpapper a:hover {
+        color: #021d5c;
+        border-color: #021d5c; }
+  .main-order img {
+    width: 31px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 20px; }
+
+.main-footer {
+  padding-top: 160px;
+  text-align: left; }
+  .main-footer .logo-img {
+    display: block;
+    float: left;
+    width: 108px;
+    height: 194px;
+    background: transparent url("../img/1920/main/logo-footer.png") no-repeat left center;
+    margin-right: 50px; }
+  .main-footer .menu {
+    padding-top: 40px; }
+    .main-footer .menu__item {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .main-footer .menu__item li {
+        display: inline-block; }
+      .main-footer .menu__item li:not(:first-child) {
+        padding-left: 35px; }
+      .main-footer .menu__item a {
+        font-family: "ProximaNova-Semibold";
+        font-size: 16px;
+        font-size: 1.1428rem;
+        color: #fafafa;
+        display: block;
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent;
+        transition: 1s ease-out 0.5s; }
+        .main-footer .menu__item a:hover {
+          border-color: #fafafa; }
+      .main-footer .menu__item a.active {
+        border-color: #fafafa; }
+  .main-footer .info {
+    margin: 0;
+    padding: 30px 0 0 0;
+    list-style: none; }
+    .main-footer .info li {
+      display: inline-block; }
+    .main-footer .info li:not(:first-child) {
+      padding-left: 35px; }
+    .main-footer .info a {
+      font-family: "ProximaNova-Semibold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      color: #fafafa;
+      text-decoration: none;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      transition: 1s ease-out 0.5s;
+      margin-left: 10px; }
+      .main-footer .info a:hover {
+        border-color: #fafafa; }
+  .main-footer .social {
+    padding-top: 30px; }
+    .main-footer .social span {
+      padding-right: 40px; }
+    .main-footer .social .fa {
+      font-size: 20px;
+      font-size: 1.429rem;
+      color: #fafafa;
+      padding: 10px;
+      background-color: #007ab9;
+      border-radius: 50%;
+      margin-right: 20px;
+      transition: 1s ease-out 0.5s; }
+      .main-footer .social .fa:hover {
+        color: #007ab9;
+        background-color: #e38522; }
+    .main-footer .social .fa-facebook {
+      padding: 10px 15px; }
+    .main-footer .social .fa-instagram {
+      padding: 10px 12px; }
+    .main-footer .social .fa-twitter {
+      padding: 10px 12px; }
+    .main-footer .social .fa-google-plus {
+      padding: 10px 12px; }
+    .main-footer .social .fa-linkedin {
+      padding: 10px 12px; }
+
+.company-wrapper {
+  background: #62a4d9 url(../img/1920/company/background-image.jpg) no-repeat center top;
+  min-height: 2341px; }
+
+.company-about {
+  padding-top: 90px;
+  text-align: center; }
+  .company-about h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .company-about h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .company-about .about-wrapper {
+    padding-top: 40px; }
+    .company-about .about-wrapper .foto {
+      height: 391px; }
+      .company-about .about-wrapper .foto__img-1 {
+        width: 100%;
+        height: 100%;
+        background: transparent url("../img/1920/company/foto-1.jpg") no-repeat center center; }
+      .company-about .about-wrapper .foto__item {
+        width: 48%;
+        height: 185px;
+        display: inline-block;
+        float: left; }
+      .company-about .about-wrapper .foto__item:nth-child(1), .company-about .about-wrapper .foto__item:nth-child(2) {
+        margin-bottom: 20px; }
+      .company-about .about-wrapper .foto__item:nth-child(even) {
+        float: right; }
+      .company-about .about-wrapper .foto__img-2 {
+        width: 100%;
+        height: 100%;
+        background: transparent url("../img/1920/company/foto-2.jpg") no-repeat center center; }
+      .company-about .about-wrapper .foto__img-3 {
+        width: 100%;
+        height: 100%;
+        background: transparent url("../img/1920/company/foto-3.jpg") no-repeat center center; }
+      .company-about .about-wrapper .foto__img-4 {
+        width: 100%;
+        height: 100%;
+        background: transparent url("../img/1920/company/foto-4.jpg") no-repeat center center; }
+      .company-about .about-wrapper .foto__img-5 {
+        width: 100%;
+        height: 100%;
+        background: transparent url("../img/1920/company/foto-5.jpg") no-repeat center center; }
+  .company-about .title {
+    padding-top: 70px;
+    text-align: left; }
+    .company-about .title h2 {
+      font-family: "ProximaNova-Bold";
+      font-size: 24px;
+      font-size: 1.714rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin: 0; }
+  .company-about .text {
+    padding-top: 40px;
+    text-align: left; }
+    .company-about .text p {
+      margin: 0 0 30px 0; }
+    .company-about .text p:last-child {
+      margin: 0; }
+  .company-about .details {
+    padding-top: 30px;
+    text-align: right; }
+    .company-about .details p {
+      font-family: "ProximaNova-Regular";
+      font-style: italic;
+      margin: 0; }
+  .company-about .link-wrpapper {
+    padding-top: 50px; }
+    .company-about .link-wrpapper a {
+      font-family: "ProximaNova-Bold";
+      font-size: 16px;
+      font-size: 1.1428rem;
+      display: inline-block;
+      width: 280px;
+      color: #021d5c;
+      border: 2px solid #021d5c;
+      padding: 15px 0;
+      text-decoration: none;
+      margin-left: 35px;
+      transition: 1s ease-out 0.5s; }
+      .company-about .link-wrpapper a.z-margin {
+        margin-left: 0; }
+      .company-about .link-wrpapper a:hover {
+        font-family: "ProximaNova-Semibold";
+        color: #fafafa;
+        border-color: #e38522;
+        background-color: #e38522; }
+    .company-about .link-wrpapper a.active {
+      font-family: "ProximaNova-Semibold";
+      color: #fafafa;
+      border-color: #e38522;
+      background-color: #e38522; }
+
+.product-wrapper {
+  background: #62a4d9 url("../img/1920/product/background-image.jpg") no-repeat center top;
+  min-height: 3763px; }
+  .product-wrapper .main-supply {
+    padding-top: 200px; }
+  .product-wrapper .main-footer {
+    padding-top: 50px; }
+
+.product-materials {
+  padding-top: 90px;
+  text-align: center; }
+  .product-materials h3 {
+    font-family: "ProximaNova-Bold";
+    font-size: 24px;
+    font-size: 1.714rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0; }
+    .product-materials h3::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      width: 84px;
+      height: 12px;
+      margin-left: -42px;
+      background: transparent url("../img/1920/main/line.png") no-repeat center center; }
+  .product-materials p {
+    margin: 0;
+    padding-top: 40px; }
+  .product-materials .item {
+    padding-top: 60px; }
+    .product-materials .item__icon {
+      width: 50px;
+      height: 35px;
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .product-materials .item__icon-1 {
+        background-image: url("../img/1920/product/icon-1.png"); }
+      .product-materials .item__icon-2 {
+        background-image: url("../img/1920/product/icon-2.png"); }
+      .product-materials .item__icon-3 {
+        background-image: url("../img/1920/product/icon-3.png"); }
+      .product-materials .item__icon-4 {
+        background-image: url("../img/1920/product/icon-4.png"); }
+      .product-materials .item__icon-5 {
+        background-image: url("../img/1920/product/icon-5.png"); }
+    .product-materials .item h5 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin: 20px 0 0 0; }
+    .product-materials .item .z-line-height {
+      line-height: 40px; }
+    .product-materials .item p {
+      line-height: 22px;
+      line-height: 1.5715rem; }
+  .product-materials .z-width {
+    width: 45%;
+    margin: 0 auto; }
+
+.product-text {
+  padding-top: 130px;
+  text-align: center; }
+  .product-text p {
+    margin: 0;
+    line-height: 22px;
+    line-height: 1.5715rem;
+    padding-bottom: 45px; }
+  .product-text .fa-angle-down {
+    display: block;
+    font-size: 60px;
+    font-size: 4.2857rem; }
+
+.reviews-wrapper {
+  background: #62a4d9 url(../img/1920/review/background-image.jpg) no-repeat top center;
+  min-height: 851px; }
+  .reviews-wrapper .main-banner h2 {
+    color: #fafafa; }
+  .reviews-wrapper .main-banner h3 {
+    color: #fafafa; }
+  .reviews-wrapper .main-banner .link-wrpapper {
+    padding-top: 50px; }
+  .reviews-wrapper .main-footer {
+    padding-top: 100px; }
+
+.hidden {
+  display: none; }
+
+.form-callback {
+  background: #62a4d9 url("../img/1920/review/background-form.jpg") no-repeat top center;
+  width: 773px;
+  height: 652px;
+  padding: 60px 100px 0 100px; }
+  .form-callback h5 {
+    font-size: 24px;
+    font-size: 1.714rem;
+    color: #021d5c;
+    margin: 0;
+    padding-bottom: 30px; }
+  .form-callback input[type=text],
+  .form-callback input[type=email],
+  .form-callback input[type=submit],
+  .form-callback textarea {
+    font-family: "ProximaNova-Bold";
+    font-size: 16px;
+    font-size: 1.1429rem;
+    display: block;
+    margin-bottom: 30px;
+    background-color: transparent;
+    outline: 0;
+    text-align: center;
+    color: #021d5c;
+    border: 2px solid #021d5c;
+    padding: 15px 0;
+    width: 60%;
+    transition: all 1.5s ease; }
+    .form-callback input[type=text]:focus,
+    .form-callback input[type=email]:focus,
+    .form-callback input[type=submit]:focus,
+    .form-callback textarea:focus {
+      border-color: #e38522; }
+  .form-callback input[type=submit] {
+    color: #fafafa;
+    border-color: transparent;
+    background-color: #e38522;
+    margin-bottom: 0; }
+    .form-callback input[type=submit]:hover {
+      background-color: #021d5c; }
+  .form-callback ::-webkit-input-placeholder {
+    color: #021d5c; }
+  .form-callback ::-moz-placeholder {
+    color: #021d5c; }
+  .form-callback :-moz-placeholder {
+    color: #021d5c; }
+  .form-callback :-ms-input-placeholder {
+    color: #021d5c; }
+  .form-callback textarea {
+    width: 98%;
+    height: 180px;
+    text-align: left;
+    padding: 30px; }
+
+.fancybox-close {
+  top: 10px;
+  right: 10px;
+  background-image: none; }
+  .fancybox-close:hover {
+    text-decoration: none; }
+  .fancybox-close:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    color: #021d5c;
+    font-size: 28px;
+    font-size: 2rem;
+    transition: all 1.5s ease; }
+  .fancybox-close:hover::after {
+    color: #e38522; }
+
+.feedback {
+  background: #62a4d9 url("../img/1920/review/background-review.jpg") no-repeat top center;
+  width: 773px;
+  height: 439px;
+  padding: 60px 100px 0 100px; }
+  .feedback h5 {
+    font-size: 24px;
+    font-size: 1.714rem;
+    color: #021d5c;
+    margin: 0;
+    padding-bottom: 30px; }
+  .feedback p {
+    font-family: "ProximaNova-Bold";
+    font-size: 16px;
+    font-size: 1.1429rem;
+    color: #021d5c; }
+
+/*********************************************		Desktop First Method
+\*********************************************/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main-header .menu-top__item li:not(:first-child) {
+    padding-left: 10px; }
+  .main-banner {
+    padding-top: 70px; }
+  .main-enthusiasm {
+    padding-top: 250px; }
+  .main-causes {
+    padding-top: 180px; }
+  .main-certificates {
+    padding-top: 140px; }
+  .main-reviews {
+    padding-top: 140px; }
+  .main-guarantee {
+    padding-top: 140px; }
+  .main-supply {
+    padding-top: 120px; }
+  .main-footer {
+    padding-top: 120px; }
+  .product-materials {
+    padding-top: 50px; }
+  .product-wrapper .main-causes {
+    padding-top: 100px; }
+  .product-wrapper .main-supply {
+    padding-top: 150px; }
+  .reviews-wrapper .main-banner {
+    padding-top: 30px; }
+    .reviews-wrapper .main-banner .link-wrpapper {
+      padding-top: 40px; }
+  .reviews-wrapper .main-footer {
+    padding-top: 80px; }
+  .form-callback,
+  .feedback {
+    width: 760px;
+    padding: 60px 50px 0 50px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-header {
+    padding-top: 15px; }
+    .main-header .logo-img {
+      width: 227px;
+      height: 87px;
+      background-image: url("../img/320/main/logo-header.png"); }
+    .main-header .burger {
+      position: relative;
+      float: right;
+      display: block;
+      width: 33px;
+      height: 87px;
+      margin: auto 0;
+      cursor: pointer; }
+      .main-header .burger span {
+        position: absolute;
+        top: 45%;
+        right: 0;
+        height: 3px;
+        width: 100%;
+        transition: all 1s;
+        background-color: #fafafa;
+        cursor: pointer; }
+        .main-header .burger span::before {
+          content: " ";
+          position: absolute;
+          right: 0;
+          height: 3px;
+          width: 100%;
+          background-color: #fafafa;
+          bottom: 8px;
+          transition: all 1s;
+          cursor: pointer; }
+        .main-header .burger span::after {
+          content: " ";
+          position: absolute;
+          right: 0;
+          height: 3px;
+          width: 100%;
+          background-color: #fafafa;
+          top: 8px;
+          transition: all 1s;
+          cursor: pointer; }
+      .main-header .burger span.active {
+        background-color: transparent; }
+        .main-header .burger span.active::before {
+          content: " ";
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+          top: 0px; }
+        .main-header .burger span.active::after {
+          content: " ";
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          top: -0px; }
+    .main-header .menu-top {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 240px;
+      width: 80%;
+      background-color: #01296e;
+      z-index: 1;
+      padding-left: 15px; }
+      .main-header .menu-top .menu-top__item {
+        text-align: left; }
+        .main-header .menu-top .menu-top__item li {
+          display: block;
+          padding-left: 0; }
+  .main-banner {
+    padding-top: 35px; }
+    .main-banner h2 {
+      font-size: 18px;
+      font-size: 1.2857rem; }
+    .main-banner h3 {
+      font-size: 16px;
+      font-size: 1.1428rem; }
+    .main-banner .link-wrpapper a {
+      margin: 0;
+      width: 100%; }
+    .main-banner .link-wrpapper a.z-margin {
+      margin-bottom: 20px; }
+  .main-enthusiasm {
+    padding-top: 140px; }
+    .main-enthusiasm h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-enthusiasm h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-enthusiasm .title-wrapper {
+      padding-top: 30px; }
+      .main-enthusiasm .title-wrapper p {
+        font-size: 12px;
+        font-size: 0.8571rem;
+        margin: 0 0 20px 0; }
+  .main-causes {
+    padding-top: 80px; }
+    .main-causes h3 {
+      font-size: 14px;
+      font-size: 1rem; }
+    .main-causes h5 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-causes h5::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-causes .reasons-wrapper {
+      display: none; }
+    .main-causes .reasons-wrapper--mob {
+      display: block;
+      height: auto;
+      padding-top: 300px;
+      margin: 30px 0 0 0;
+      background: transparent url("../img/320/main/mask.png") no-repeat top center;
+      text-align: center; }
+      .main-causes .reasons-wrapper--mob h6 {
+        font-size: 14px;
+        font-size: 1rem;
+        margin: 0; }
+      .main-causes .reasons-wrapper--mob p {
+        position: relative;
+        font-size: 12px;
+        font-size: 0.857rem;
+        margin: 40px 0 0 0; }
+      .main-causes .reasons-wrapper--mob .number-1::after {
+        content: "1";
+        position: absolute;
+        top: -20px;
+        left: 50%; }
+      .main-causes .reasons-wrapper--mob .number-2::after {
+        content: "2";
+        position: absolute;
+        top: -20px;
+        left: 50%; }
+      .main-causes .reasons-wrapper--mob .number-3::after {
+        content: "3";
+        position: absolute;
+        top: -20px;
+        left: 50%; }
+      .main-causes .reasons-wrapper--mob .number-4::after {
+        content: "4";
+        position: absolute;
+        top: -20px;
+        left: 50%; }
+      .main-causes .reasons-wrapper--mob .number-5::after {
+        content: "5";
+        position: absolute;
+        top: -20px;
+        left: 50%; }
+      .main-causes .reasons-wrapper--mob .fa-angle-down {
+        display: block;
+        font-size: 60px;
+        font-size: 4.2857rem; }
+    .main-causes .link-wrpapper {
+      padding-top: 40px; }
+  .main-certificates {
+    padding-top: 90px; }
+    .main-certificates h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-certificates h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-certificates .certificates-logos {
+      padding-top: 20px; }
+      .main-certificates .certificates-logos .logo-icon {
+        height: 124px; }
+      .main-certificates .certificates-logos .logo-icon--1 {
+        background-image: url("../img/320/main/certificate-1.png"); }
+      .main-certificates .certificates-logos .logo-icon--2 {
+        background-image: url("../img/320/main/certificate-2.png"); }
+      .main-certificates .certificates-logos .logo-icon--3 {
+        background-image: url("../img/320/main/certificate-3.png"); }
+      .main-certificates .certificates-logos .logo-icon--4 {
+        background-image: url("../img/320/main/certificate-4.png"); }
+  .main-reviews {
+    padding-top: 85px; }
+    .main-reviews h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-reviews h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-reviews .carousel {
+      padding-top: 25px; }
+      .main-reviews .carousel .item {
+        width: 75%; }
+  .main-guarantee {
+    padding-top: 90px; }
+    .main-guarantee h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-guarantee h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-guarantee .text {
+      padding-top: 25px; }
+      .main-guarantee .text .guarantee_icon {
+        height: 112px;
+        width: 112px;
+        float: none;
+        background: transparent url("../img/320/main/guarantee.png") no-repeat left center;
+        margin: 0 auto; }
+      .main-guarantee .text p {
+        font-size: 12px;
+        font-size: 0.8571rem;
+        padding-top: 25px;
+        text-align: center; }
+  .main-supply {
+    padding-top: 90px; }
+    .main-supply h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .main-supply h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .main-supply .supply-list {
+      padding-top: 20px;
+      margin: 0;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .main-supply .supply-list .supply-img {
+        width: 71px;
+        height: 90px; }
+        .main-supply .supply-list .supply-img--1 {
+          background-image: url("../img/320/main/diving-mask.png"); }
+        .main-supply .supply-list .supply-img--2 {
+          background-image: url("../img/320/main/snorkel-tube.png"); }
+        .main-supply .supply-list .supply-img--3 {
+          background-image: url("../img/320/main/guide.png"); }
+        .main-supply .supply-list .supply-img--4 {
+          background-image: url("../img/320/main/bag.png"); }
+        .main-supply .supply-list .supply-img--5 {
+          background-image: url("../img/320/main/diving-mask.png"); }
+      .main-supply .supply-list p {
+        font-size: 12px;
+        font-size: 0.8571rem;
+        margin: 0 10px; }
+  .main-order {
+    padding-top: 35px; }
+    .main-order h3 {
+      font-size: 18px;
+      font-size: 1.2857rem; }
+    .main-order p {
+      font-size: 24px;
+      font-size: 1.714rem;
+      margin-top: 20px; }
+  .main-footer .menu__item li {
+    display: block; }
+  .main-footer .menu__item a {
+    display: inline-block; }
+  .company-about {
+    padding-top: 80px; }
+    .company-about .title {
+      padding-top: 60px; }
+      .company-about .title h2 {
+        font-size: 12px;
+        font-size: 0.8571rem; }
+    .company-about .text {
+      padding-top: 20px; }
+      .company-about .text p {
+        font-size: 12px;
+        font-size: 0.8571rem; }
+    .company-about .link-wrpapper a {
+      width: 100%;
+      margin-left: 0; }
+    .company-about .link-wrpapper a.z-margin {
+      margin-bottom: 20px; }
+  .product-materials {
+    padding-top: 40px; }
+    .product-materials h3 {
+      font-size: 14px;
+      font-size: 1rem;
+      margin-bottom: 10px; }
+      .product-materials h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .product-materials .item {
+      padding-top: 30px; }
+      .product-materials .item p {
+        font-size: 12px;
+        font-size: 0.8571rem;
+        line-height: 20px;
+        line-height: 1.4286rem;
+        padding-top: 20px; }
+    .product-materials .z-width {
+      width: 100%;
+      margin: 0; }
+  .product-wrapper .main-supply {
+    padding-top: 60px; }
+  .product-wrapper .main-causes {
+    padding-top: 80px; }
+  .product-wrapper .main-order {
+    padding-top: 20px; }
+  .product-text {
+    padding-top: 50px; }
+    .product-text p {
+      padding-bottom: 10px; }
+  .form-callback,
+  .feedback {
+    width: 475px;
+    padding: 60px 30px 0 30px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .main-footer {
+    padding-top: 95px; }
+    .main-footer .logo-img {
+      width: 103px;
+      height: 184px;
+      background: transparent url("../img/320/main/logo-footer.png") no-repeat left center;
+      margin-right: 45px; }
+    .main-footer .menu {
+      padding-top: 20px; }
+    .main-footer .menu__item li {
+      display: block; }
+    .main-footer .menu__item a {
+      display: inline-block; }
+    .main-footer .menu__item li:not(:first-child) {
+      padding-left: 0; }
+    .main-footer .info {
+      padding-top: 80px; }
+      .main-footer .info li:not(:first-child) {
+        padding-left: 0; }
+    .main-footer .social span {
+      display: block;
+      padding: 0 0 25px 0; }
+    .main-footer .social .fa {
+      margin-bottom: 20px; }
+  .company-about {
+    padding-top: 40px; }
+    .company-about .title {
+      padding-top: 30px; }
+    .company-about .text p {
+      margin-bottom: 20px; }
+    .company-about h3 {
+      font-size: 12px;
+      font-size: 0.8571rem;
+      margin-bottom: 10px; }
+      .company-about h3::after {
+        width: 44px;
+        height: 7px;
+        bottom: -10px;
+        margin-left: -22px;
+        background: transparent url("../img/320/main/line.png") no-repeat center center; }
+    .company-about .details p {
+      font-size: 12px;
+      font-size: 0.8571rem; }
+  .form-callback,
+  .feedback {
+    width: 320px;
+    padding: 60px 15px 0 15px; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .main-wrapper {
+    background-image: url(../img/320/main/background-image.jpg);
+    min-height: 4593px; }
+  .company-wrapper {
+    background-image: url(../img/320/company/background-image.jpg);
+    min-height: 3526px; }
+    .company-wrapper .title {
+      padding-top: 60px; }
+    .company-wrapper .about-wrapper {
+      padding-top: 70px; }
+      .company-wrapper .about-wrapper .foto {
+        height: 233px;
+        padding-bottom: 20px; }
+        .company-wrapper .about-wrapper .foto__img-1 {
+          background-image: url(../img/320/company/foto-1.jpg); }
+        .company-wrapper .about-wrapper .foto__img-2 {
+          background-image: url(../img/320/company/foto-2.jpg); }
+        .company-wrapper .about-wrapper .foto__img-3 {
+          background-image: url(../img/320/company/foto-3.jpg); }
+        .company-wrapper .about-wrapper .foto__img-4 {
+          background-image: url(../img/320/company/foto-4.jpg); }
+        .company-wrapper .about-wrapper .foto__img-5 {
+          background-image: url(../img/320/company/foto-5.jpg); }
+        .company-wrapper .about-wrapper .foto__item {
+          width: 100%;
+          float: none;
+          height: 233px;
+          padding-bottom: 20px;
+          display: block; }
+        .company-wrapper .about-wrapper .foto__item:nth-child(1), .company-wrapper .about-wrapper .foto__item:nth-child(2) {
+          margin-bottom: 0; }
+    .company-wrapper .link-wrpapper {
+      padding-top: 120px; }
+    .company-wrapper .main-footer {
+      padding-top: 115px; }
+  .product-wrapper {
+    background-image: url(../img/320/product/background-image.jpg);
+    min-height: 3526px; }
+  .reviews-wrapper {
+    background-image: url(../img/320/review/background-image.jpg);
+    min-height: 1092px; }
+  .form-callback {
+    background: #62a4d9 url("../img/320/review/background-form.jpg") no-repeat top center;
+    width: 320px;
+    height: 652px;
+    padding: 60px 15px 0 15px; }
+    .form-callback input[type=text],
+    .form-callback input[type=email],
+    .form-callback input[type=submit],
+    .form-callback textarea {
+      width: 100%; }
+  .feedback {
+    background: #62a4d9 url("../img/320/review/background-review.jpg") no-repeat top center;
+    width: 320px;
+    height: 439px;
+    padding: 60px 15px 0 15px; }
+    .feedback p {
+      font-size: 12px;
+      font-size: 0.8571rem; } }
+
+/*********************************************		Mobile First Method
+\*********************************************/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
