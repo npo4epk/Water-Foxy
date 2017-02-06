@@ -2,9 +2,9 @@
 # "Water Foxy" - многостраничный шаблон Landing page для мобильного приложения.
 
 <p>Магазин подводного оборудования "Water Foxy"</p>
-<p>Посмотреть на странице</p>
+<p>Посмотреть на странице:p>
 <p><a href="http://waterfoxy.com/" target="_blank">waterfoxy.com</a></p>
-<p><a href="http://nikita-karpinskiy.esy.es/WaterFoxy/" target="_blank">water-foxy</a></p>
+<p><a href="http://nikita-karpinskiy.esy.es/WaterFoxy/" target="_blank">waterfoxy.esy</a></p>
 
 <em>Особенности проекта:</em>
 <ol>
